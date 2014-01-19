@@ -1,0 +1,67 @@
+/* ---------------------------------------------
+ | CSS
+ | the custum css for the application
+ * --------------------------------------------- */
+ /*#a8c3ad
+ #fffdf4
+ #fbbe9a
+ #ff9794
+ #ef6074
+ #37464a*/
+
+ body{
+	background      : 
+		linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+		linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+		linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+		linear-gradient(45deg, #ECEDDC 25%, transparent 25%);	
+	background-size : 100px 100px;
+	background-color:  #fffdf4;
+}
+
+#container{
+	background-color: #fff;
+	position        :relative;
+	left            :450px;
+	width           :30%;
+}
+
+#list{
+	position      :relative;
+	width         :370px;
+	left          :30px;
+	padding-top   : 25px;
+	padding-bottom: 25px;
+	cursor        : pointer;
+}
+
+dt{
+	background-color:   #ff9794;
+	padding         : 5px;
+	margin-bottom   : 2px;
+	margin-top      : 2px;
+}
+dd{
+	background-color:   #fbbe9a;
+}
+
+#pics{
+	padding-left : 50px;
+	margin-bottom: 10px;
+}
+
+#logo{
+	margin  : 5px;
+	width   : 210px;
+	height  : 210px;
+	position:relative;
+	left    :540px;
+}
+
+.boxBody{
+	padding-left: 5px;
+}
+
+
+
+

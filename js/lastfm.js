@@ -6,7 +6,7 @@
 function getLastFMData(lftag, boxBody){
 	$.ajax({
 
-		type    : "GET",
+		//type    : "GET",
 		dataType: "json",
 		cache   : false,
 		url     :  "http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist="+ lftag +"&api_key="+lfKey+"&limit=12&format=json",
